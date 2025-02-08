@@ -1,0 +1,35 @@
+{
+  "name": "waypoint",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.app.json && tsc -p tsconfig.node.json",
+    "tauri": "tauri",
+    "tauri:dev": "tauri dev",
+    "tauri:build": "tauri build"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^5.0.3",
+    "@tailwindcss/forms": "^0.5.10",
+    "@tailwindcss/postcss": "^4.0.4",
+    "@tailwindcss/typography": "^0.5.16",
+    "@tauri-apps/cli": "^2.2.7",
+    "@tsconfig/svelte": "^5.0.4",
+    "@types/node": "^22.13.1",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.31",
+    "svelte": "^5.19.6",
+    "svelte-check": "^4.1.4",
+    "tailwindcss": "^3.4.1",
+    "typescript": "~5.7.2",
+    "vite": "^6.1.0"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^2.2.0",
+    "lucide-svelte": "^0.475.0"
+  }
+}
